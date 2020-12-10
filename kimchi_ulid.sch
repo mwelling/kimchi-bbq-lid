@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:kimchi_ulid-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -83,7 +82,7 @@ Connection ~ 1050 1450
 Wire Wire Line
 	1050 1450 1050 1550
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
+L kimchi_ulid-rescue:Logo_Open_Hardware_Small-Graphic LOGO1
 U 1 1 5EA00236
 P 12000 10300
 F 0 "LOGO1" H 12000 10575 50  0001 C CNN
@@ -588,7 +587,7 @@ $EndComp
 Wire Wire Line
 	11250 2750 10800 2750
 $Comp
-L Mechanical:MountingHole_Pad H1
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H1
 U 1 1 5E6294CA
 P 14250 1000
 F 0 "H1" H 14350 1049 50  0000 L CNN
@@ -599,7 +598,7 @@ F 3 "~" H 14250 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H3
 U 1 1 5E62A27E
 P 14250 1500
 F 0 "H3" H 14350 1549 50  0000 L CNN
@@ -610,7 +609,7 @@ F 3 "~" H 14250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H2
 U 1 1 5E62A6D2
 P 15350 1000
 F 0 "H2" H 15450 1049 50  0000 L CNN
@@ -621,7 +620,7 @@ F 3 "~" H 15350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 5E62AAC7
 P 15350 1500
 F 0 "H4" H 15450 1549 50  0000 L CNN
@@ -697,4 +696,537 @@ F 3 "" H 1050 1300 50  0001 C CNN
 	1    1050 1300
 	1    0    0    -1  
 $EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW1
+U 1 1 5FD04927
+P 12650 4200
+F 0 "SW1" H 12650 4465 50  0000 C CNN
+F 1 "TL3301NF260QG" H 12650 4374 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 12650 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 12650 4200 50  0001 C CNN
+F 4 "0.38000" H 12750 4450 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 12850 4550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 12950 4650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13050 4750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13150 4850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 13250 4950 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 13350 5050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 13450 5150 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 13550 5250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 13650 5350 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 13750 5450 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 14850 6550 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 13850 5550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 13950 5650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14050 5750 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14150 5850 50  0001 C CNN "Mounting"
+F 20 "4" H 14250 5950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 14350 6050 50  0001 C CNN "Status"
+F 22 "*" H 14450 6150 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 14550 6250 50  0001 C CNN "Type"
+F 24 "12VDC" H 14650 6350 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 14750 6500 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15050 6800 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 14950 6700 50  0001 C CNN "_Value_"
+F 28 "*" H 15050 6800 50  0001 C CNN "Management_ID"
+	1    12650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW2
+U 1 1 5FD05CE2
+P 12700 4600
+F 0 "SW2" H 12700 4865 50  0000 C CNN
+F 1 "TL3301NF260QG" H 12700 4774 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 12700 4600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 12700 4600 50  0001 C CNN
+F 4 "0.38000" H 12800 4850 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 12900 4950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13000 5050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13100 5150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13200 5250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 13300 5350 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 13400 5450 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 13500 5550 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 13600 5650 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 13700 5750 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 13800 5850 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 14900 6950 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 13900 5950 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14000 6050 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14100 6150 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14200 6250 50  0001 C CNN "Mounting"
+F 20 "4" H 14300 6350 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 14400 6450 50  0001 C CNN "Status"
+F 22 "*" H 14500 6550 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 14600 6650 50  0001 C CNN "Type"
+F 24 "12VDC" H 14700 6750 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 14800 6900 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15100 7200 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15000 7100 50  0001 C CNN "_Value_"
+F 28 "*" H 15100 7200 50  0001 C CNN "Management_ID"
+	1    12700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW6
+U 1 1 5FD0828D
+P 13450 4600
+F 0 "SW6" H 13450 4865 50  0000 C CNN
+F 1 "TL3301NF260QG" H 13450 4774 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 13450 4600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 13450 4600 50  0001 C CNN
+F 4 "0.38000" H 13550 4850 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 13650 4950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13750 5050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13850 5150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13950 5250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 14050 5350 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 14150 5450 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 14250 5550 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 14350 5650 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 14450 5750 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 14550 5850 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 15650 6950 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 14650 5950 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14750 6050 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14850 6150 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14950 6250 50  0001 C CNN "Mounting"
+F 20 "4" H 15050 6350 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 15150 6450 50  0001 C CNN "Status"
+F 22 "*" H 15250 6550 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 15350 6650 50  0001 C CNN "Type"
+F 24 "12VDC" H 15450 6750 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 15550 6900 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15850 7200 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15750 7100 50  0001 C CNN "_Value_"
+F 28 "*" H 15850 7200 50  0001 C CNN "Management_ID"
+	1    13450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW5
+U 1 1 5FD0A76C
+P 13400 4200
+F 0 "SW5" H 13400 4465 50  0000 C CNN
+F 1 "TL3301NF260QG" H 13400 4374 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 13400 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 13400 4200 50  0001 C CNN
+F 4 "0.38000" H 13500 4450 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 13600 4550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13700 4650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13800 4750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13900 4850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 14000 4950 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 14100 5050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 14200 5150 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 14300 5250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 14400 5350 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 14500 5450 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 15600 6550 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 14600 5550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14700 5650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14800 5750 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14900 5850 50  0001 C CNN "Mounting"
+F 20 "4" H 15000 5950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 15100 6050 50  0001 C CNN "Status"
+F 22 "*" H 15200 6150 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 15300 6250 50  0001 C CNN "Type"
+F 24 "12VDC" H 15400 6350 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 15500 6500 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15800 6800 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15700 6700 50  0001 C CNN "_Value_"
+F 28 "*" H 15800 6800 50  0001 C CNN "Management_ID"
+	1    13400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW3
+U 1 1 5FD1A327
+P 12700 5700
+F 0 "SW3" H 12700 5965 50  0000 C CNN
+F 1 "TL3301NF260QG" H 12700 5874 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 12700 5700 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 12700 5700 50  0001 C CNN
+F 4 "0.38000" H 12800 5950 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 12900 6050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13000 6150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13100 6250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13200 6350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 13300 6450 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 13400 6550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 13500 6650 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 13600 6750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 13700 6850 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 13800 6950 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 14900 8050 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 13900 7050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14000 7150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14100 7250 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14200 7350 50  0001 C CNN "Mounting"
+F 20 "4" H 14300 7450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 14400 7550 50  0001 C CNN "Status"
+F 22 "*" H 14500 7650 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 14600 7750 50  0001 C CNN "Type"
+F 24 "12VDC" H 14700 7850 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 14800 8000 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15100 8300 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15000 8200 50  0001 C CNN "_Value_"
+F 28 "*" H 15100 8300 50  0001 C CNN "Management_ID"
+	1    12700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW4
+U 1 1 5FD1A346
+P 12750 6100
+F 0 "SW4" H 12750 6365 50  0000 C CNN
+F 1 "TL3301NF260QG" H 12750 6274 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 12750 6100 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 12750 6100 50  0001 C CNN
+F 4 "0.38000" H 12850 6350 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 12950 6450 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13050 6550 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13150 6650 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13250 6750 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 13350 6850 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 13450 6950 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 13550 7050 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 13650 7150 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 13750 7250 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 13850 7350 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 14950 8450 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 13950 7450 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14050 7550 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14150 7650 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14250 7750 50  0001 C CNN "Mounting"
+F 20 "4" H 14350 7850 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 14450 7950 50  0001 C CNN "Status"
+F 22 "*" H 14550 8050 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 14650 8150 50  0001 C CNN "Type"
+F 24 "12VDC" H 14750 8250 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 14850 8400 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15150 8700 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15050 8600 50  0001 C CNN "_Value_"
+F 28 "*" H 15150 8700 50  0001 C CNN "Management_ID"
+	1    12750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW8
+U 1 1 5FD1A365
+P 13500 6100
+F 0 "SW8" H 13500 6365 50  0000 C CNN
+F 1 "TL3301NF260QG" H 13500 6274 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 13500 6100 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 13500 6100 50  0001 C CNN
+F 4 "0.38000" H 13600 6350 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 13700 6450 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13800 6550 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13900 6650 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 14000 6750 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 14100 6850 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 14200 6950 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 14300 7050 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 14400 7150 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 14500 7250 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 14600 7350 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 15700 8450 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 14700 7450 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14800 7550 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14900 7650 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 15000 7750 50  0001 C CNN "Mounting"
+F 20 "4" H 15100 7850 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 15200 7950 50  0001 C CNN "Status"
+F 22 "*" H 15300 8050 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 15400 8150 50  0001 C CNN "Type"
+F 24 "12VDC" H 15500 8250 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 15600 8400 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15900 8700 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15800 8600 50  0001 C CNN "_Value_"
+F 28 "*" H 15900 8700 50  0001 C CNN "Management_ID"
+	1    13500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:TL3301NF260QG SW7
+U 1 1 5FD1A384
+P 13450 5700
+F 0 "SW7" H 13450 5965 50  0000 C CNN
+F 1 "TL3301NF260QG" H 13450 5874 50  0000 C CNN
+F 2 "kimchi_ulid:TL3301NF260QG" H 13450 5700 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 13450 5700 50  0001 C CNN
+F 4 "0.38000" H 13550 5950 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 13650 6050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 13750 6150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 13850 6250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 13950 6350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 14050 6450 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 14150 6550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 14250 6650 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 14350 6750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 14450 6850 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 14550 6950 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 15650 8050 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 14650 7050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 14750 7150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 14850 7250 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 14950 7350 50  0001 C CNN "Mounting"
+F 20 "4" H 15050 7450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 15150 7550 50  0001 C CNN "Status"
+F 22 "*" H 15250 7650 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 15350 7750 50  0001 C CNN "Type"
+F 24 "12VDC" H 15450 7850 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 15550 8000 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 15850 8300 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 15750 8200 50  0001 C CNN "_Value_"
+F 28 "*" H 15850 8300 50  0001 C CNN "Management_ID"
+	1    13450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:Keyes_HW-504 JS1
+U 1 1 5FD2BDD5
+P 10250 5750
+F 0 "JS1" H 10528 5709 50  0000 L CNN
+F 1 "Keyes_HW-504" H 10528 5618 50  0000 L CNN
+F 2 "kimchi_ulid:Keyes_JoyStick" H 10250 5750 50  0001 C CNN
+F 3 "*" H 10250 5750 50  0001 C CNN
+F 4 "*" H 10350 6000 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 10450 6100 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 10550 6200 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 10650 6300 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 10750 6400 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 10850 6500 50  0001 C CNN "MFR"
+F 10 "*" H 10950 6600 50  0001 C CNN "MFR#"
+F 11 "*" H 11050 6700 50  0001 C CNN "Vendor"
+F 12 "*" H 11150 6800 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 11250 6900 50  0001 C CNN "Designer"
+F 14 "*" H 11350 7000 50  0001 C CNN "Height"
+F 15 "12/8/2020" H 12450 8100 50  0001 C CNN "Date Created"
+F 16 "12/8/2020" H 11450 7100 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 11550 7200 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11650 7300 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 11750 7400 50  0001 C CNN "Mounting"
+F 20 "*" H 11850 7500 50  0001 C CNN "Pin Count #"
+F 21 "*" H 11950 7600 50  0001 C CNN "Status"
+F 22 "*" H 12050 7700 50  0001 C CNN "Tolerance"
+F 23 "*" H 12150 7800 50  0001 C CNN "Type"
+F 24 "*" H 12250 7900 50  0001 C CNN "Voltage"
+F 25 "*" H 12350 8050 50  0001 C CNN "Package"
+F 26 "Generic Arduino Joystick- this symbol is for mockup only" H 12650 8350 50  0001 C CNN "Description"
+F 27 "Keyes_HW-504" H 12550 8250 50  0001 C CNN "_Value_"
+F 28 "*" H 12650 8350 50  0001 C CNN "Management_ID"
+	1    10250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:Keyes_HW-504 JS2
+U 1 1 5FD2D4E0
+P 10250 6000
+F 0 "JS2" H 10528 5959 50  0000 L CNN
+F 1 "Keyes_HW-504" H 10528 5868 50  0000 L CNN
+F 2 "kimchi_ulid:Keyes_JoyStick" H 10250 6000 50  0001 C CNN
+F 3 "*" H 10250 6000 50  0001 C CNN
+F 4 "*" H 10350 6250 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 10450 6350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 10550 6450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 10650 6550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 10750 6650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 10850 6750 50  0001 C CNN "MFR"
+F 10 "*" H 10950 6850 50  0001 C CNN "MFR#"
+F 11 "*" H 11050 6950 50  0001 C CNN "Vendor"
+F 12 "*" H 11150 7050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 11250 7150 50  0001 C CNN "Designer"
+F 14 "*" H 11350 7250 50  0001 C CNN "Height"
+F 15 "12/8/2020" H 12450 8350 50  0001 C CNN "Date Created"
+F 16 "12/8/2020" H 11450 7350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 11550 7450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11650 7550 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 11750 7650 50  0001 C CNN "Mounting"
+F 20 "*" H 11850 7750 50  0001 C CNN "Pin Count #"
+F 21 "*" H 11950 7850 50  0001 C CNN "Status"
+F 22 "*" H 12050 7950 50  0001 C CNN "Tolerance"
+F 23 "*" H 12150 8050 50  0001 C CNN "Type"
+F 24 "*" H 12250 8150 50  0001 C CNN "Voltage"
+F 25 "*" H 12350 8300 50  0001 C CNN "Package"
+F 26 "Generic Arduino Joystick- this symbol is for mockup only" H 12650 8600 50  0001 C CNN "Description"
+F 27 "Keyes_HW-504" H 12550 8500 50  0001 C CNN "_Value_"
+F 28 "*" H 12650 8600 50  0001 C CNN "Management_ID"
+	1    10250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:KUSBX-AS1N-B J3
+U 1 1 5FD14341
+P 3750 2200
+F 0 "J3" H 4007 2367 50  0000 C CNN
+F 1 "KUSBX-AS1N-B" H 4007 2276 50  0000 C CNN
+F 2 "kimchi_ulid:USB_A" H 3750 2375 50  0001 C CNN
+F 3 "http://www.kycon.com/2013Catalogpage/USB/KUSBX.pdf" H 3750 2200 50  0001 C CNN
+F 4 "0.79000" H 3850 2450 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.43840" H 3950 2550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.39730" H 4050 2650 50  0001 C CNN "Cost QTY: 3000"
+F 7 "*" H 4150 2750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 4250 2850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Kycon, Inc." H 4350 2950 50  0001 C CNN "MFR"
+F 10 "KUSBX-AS1N-B" H 4450 3050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4550 3150 50  0001 C CNN "Vendor"
+F 12 "2092-KUSBX-AS1N-B-ND" H 4650 3250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4750 3350 50  0001 C CNN "Designer"
+F 14 "5.12mm" H 4850 3450 50  0001 C CNN "Height"
+F 15 "12/8/2020" H 5950 4550 50  0001 C CNN "Date Created"
+F 16 "12/8/2020" H 4950 3550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5050 3650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5150 3750 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole Right Angle" H 5250 3850 50  0001 C CNN "Mounting"
+F 20 "4" H 5350 3950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5450 4050 50  0001 C CNN "Status"
+F 22 "*" H 5550 4150 50  0001 C CNN "Tolerance"
+F 23 "USB Type A Receptical " H 5650 4250 50  0001 C CNN "Type"
+F 24 "5VDC" H 5750 4350 50  0001 C CNN "Voltage"
+F 25 "USB-A" H 5850 4500 50  0001 C CNN "Package"
+F 26 "USB-A (USB TYPE-A)  Receptacle Connector 4 Position Through Hole, Right Angle" H 6150 4800 50  0001 C CNN "Description"
+F 27 "KUSBX-AS1N-B" H 6050 4700 50  0001 C CNN "_Value_"
+F 28 "*" H 6150 4800 50  0001 C CNN "Management_ID"
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:54-00176 J4
+U 1 1 5FD23BB0
+P 3750 6450
+F 0 "J4" H 4350 5700 50  0000 C CNN
+F 1 "54-00176" H 3900 6500 50  0000 C CNN
+F 2 "kimchi_ulid:54-00176" H 3750 6625 50  0001 C CNN
+F 3 "http://www.kycon.com/2013Catalogpage/USB/KUSBX.pdf" H 3750 6450 50  0001 C CNN
+F 4 "0.91000" H 3850 6700 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.49600" H 3950 6800 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.44950" H 4050 6900 50  0001 C CNN "Cost QTY: 3000"
+F 7 "0.43400" H 4150 7000 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.41230" H 4250 7100 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Tensility International Corp" H 4350 7200 50  0001 C CNN "MFR"
+F 10 "54-00176" H 4450 7300 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4550 7400 50  0001 C CNN "Vendor"
+F 12 "839-54-00176TR-ND" H 4650 7500 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4750 7600 50  0001 C CNN "Designer"
+F 14 "4mm" H 4850 7700 50  0001 C CNN "Height"
+F 15 "12/8/2020" H 5950 8800 50  0001 C CNN "Date Created"
+F 16 "12/8/2020" H 4950 7800 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5050 7900 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5150 8000 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole Right Angle" H 5250 8100 50  0001 C CNN "Mounting"
+F 20 "6" H 5350 8200 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5450 8300 50  0001 C CNN "Status"
+F 22 "*" H 5550 8400 50  0001 C CNN "Tolerance"
+F 23 "3.5mm Audio" H 5650 8500 50  0001 C CNN "Type"
+F 24 "*" H 5750 8600 50  0001 C CNN "Voltage"
+F 25 "3.5mm Audio" H 5850 8750 50  0001 C CNN "Package"
+F 26 "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (4 Conductor, TRRS) Connector Solder" H 6150 9050 50  0001 C CNN "Description"
+F 27 "54-00176" H 6050 8950 50  0001 C CNN "_Value_"
+F 28 "*" H 6150 9050 50  0001 C CNN "Management_ID"
+	1    3750 6450
+	-1   0    0    1   
+$EndComp
+Text GLabel 4250 2300 2    50   Input ~ 0
+USB2_VBUS
+Text GLabel 4250 2600 2    50   Input ~ 0
+USB2_DN
+Text GLabel 4250 2500 2    50   Input ~ 0
+USB2_DP
+$Comp
+L power:GND #PWR0114
+U 1 1 5FD3209A
+P 3950 3000
+F 0 "#PWR0114" H 3950 2750 50  0001 C CNN
+F 1 "GND" H 3955 2827 50  0000 C CNN
+F 2 "" H 3950 3000 50  0001 C CNN
+F 3 "" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2900 3950 2900
+Wire Wire Line
+	3950 2900 3950 3000
+Connection ~ 3950 2900
+$Comp
+L kimchi_ulid:SGTL5000XNLA3 J5
+U 1 1 5FD0ADCA
+P 3100 3700
+F 0 "J5" H 3600 3867 50  0000 C CNN
+F 1 "SGTL5000XNLA3" H 3600 3776 50  0000 C CNN
+F 2 "kimchi_ulid:QFN40P300X300X60-21N" H 3100 3875 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf" H 3100 3700 50  0001 C CNN
+F 4 "3.21000" H 3200 3950 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.61196" H 3300 4050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "1.57560" H 3400 4150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3500 4250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3600 4350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "NXP USA Inc." H 3700 4450 50  0001 C CNN "MFR"
+F 10 "SGTL5000XNLA3" H 3800 4550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3900 4650 50  0001 C CNN "Vendor"
+F 12 "SGTL5000XNLA3-ND" H 4000 4750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4100 4850 50  0001 C CNN "Designer"
+F 14 "*" H 4200 4950 50  0001 C CNN "Height"
+F 15 "12/8/2020" H 5300 6050 50  0001 C CNN "Date Created"
+F 16 "12/8/2020" H 4300 5050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4400 5150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4500 5250 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4600 5350 50  0001 C CNN "Mounting"
+F 20 "20" H 4700 5450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4800 5550 50  0001 C CNN "Status"
+F 22 "*" H 4900 5650 50  0001 C CNN "Tolerance"
+F 23 "Audio Codec QFN" H 5000 5750 50  0001 C CNN "Type"
+F 24 "3.3V" H 5100 5850 50  0001 C CNN "Voltage"
+F 25 "20QFN" H 5200 6000 50  0001 C CNN "Package"
+F 26 "Stereo Audio Interface  I²C, Serial, SPI™ 20-QFN-EP (3x3)" H 5500 6300 50  0001 C CNN "Description"
+F 27 "SGTL5000XNLA3" H 5400 6200 50  0001 C CNN "_Value_"
+F 28 "*" H 5500 6300 50  0001 C CNN "Management_ID"
+	1    3100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD2AFDC
+P 2600 6350
+F 0 "#PWR?" H 2600 6100 50  0001 C CNN
+F 1 "GND" H 2605 6177 50  0000 C CNN
+F 2 "" H 2600 6350 50  0001 C CNN
+F 3 "" H 2600 6350 50  0001 C CNN
+	1    2600 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6350 2600 6350
+Wire Wire Line
+	2950 6250 1350 6250
+Text GLabel 1350 6250 0    50   Input ~ 0
+MIC_IN
+Text GLabel 1900 4000 0    50   Input ~ 0
+MIC_IN
+Wire Wire Line
+	2900 4000 1900 4000
+Text GLabel 1900 5100 0    50   Input ~ 0
+MIC_BIAS
+Wire Wire Line
+	2900 5100 1900 5100
+Text GLabel 1400 6650 0    50   Input ~ 0
+MIC_BIAS
+Text GLabel 5250 4400 2    50   Input ~ 0
+HPOUT_R
+Text GLabel 5250 4500 2    50   Input ~ 0
+HPOUT_L
+Wire Wire Line
+	4300 4500 5250 4500
+Wire Wire Line
+	4300 4400 5250 4400
+Text GLabel 1350 6150 0    50   Input ~ 0
+HPOUT_R
+Text GLabel 1350 5850 0    50   Input ~ 0
+HPOUT_L
+Wire Wire Line
+	2950 5850 1350 5850
+Wire Wire Line
+	1350 6150 2950 6150
 $EndSCHEMATC
